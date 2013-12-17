@@ -19,7 +19,7 @@ po/POTFILES
 
 # autotools crap
 m4/*.m4
-!m4/efl_*.m4
+!m4/efl*.m4
 Makefile
 Makefile.in
 aclocal.m4
