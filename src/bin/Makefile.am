@@ -7,10 +7,10 @@ AM_CPPFLAGS = -DPACKAGE_DATA_DIR=\"$(datadir)/$(PACKAGE)\" \
 -I$(top_srcdir)/src/bin/ \
 -I$(top_builddir)/src/lib/ \
 -I$(top_srcdir)/src/lib/ \
-@SKELETON_CFLAGS@
+@EFL_CFLAGS@
 
 skeleton_SOURCES = skeleton_main.c
-skeleton_LDADD = @SKELETON_LIBS@ $(top_builddir)/src/lib/libskeleton.la
+skeleton_LDADD = @EFL_LIBS@ $(top_builddir)/src/lib/libskeleton.la
 
 localedir = $(datadir)/locale
 DEFS = -DLOCALEDIR=\"$(localedir)\" @DEFS@
