@@ -62,6 +62,8 @@ AM_GNU_GETTEXT([external])
 AC_CONFIG_FILES([
 Makefile
 data/Makefile
+data/desktop/Makefile
+data/desktop/skeleton.desktop
 data/themes/Makefile
 data/themes/default/Makefile
 doc/Makefile

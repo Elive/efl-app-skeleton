@@ -100,7 +100,7 @@ elm_main(int argc EINA_UNUSED, char **argv EINA_UNUSED)
 	goto end;
      }
 
-   elm_app_info_set(elm_main, "skeleton", "images/logo.png");
+   elm_app_info_set(elm_main, "skeleton", "images/skeleton.png");
 
    if (!(win = skeleton_win_setup()))
      goto end;
