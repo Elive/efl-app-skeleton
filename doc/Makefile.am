@@ -1,5 +1,5 @@
 MAINTAINERCLEANFILES = Makefile.in
-EXTRA_DIST = skeleton.1
+EXTRA_DIST = skeleton.1.in
 
 man_MANS = skeleton.1
 
@@ -35,10 +35,4 @@ doc:
 	@echo "Documentation not built. Run ./configure --help"
 
 endif
-
-EXTRA_DIST = \
-Doxyfile.in \
-e.css \
-head.html \
-foot.html
 

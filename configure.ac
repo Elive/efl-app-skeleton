@@ -75,6 +75,7 @@ src/Makefile
 src/bin/Makefile
 src/lib/Makefile
 src/tests/Makefile
+doc/skeleton.1
 ])
 AC_OUTPUT
 

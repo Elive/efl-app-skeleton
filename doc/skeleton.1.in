@@ -1,7 +1,7 @@
-.TH SKELETON 1 "21 Mar 2013" "skeleton 0.2.3"
+.TH SKELETON 1 "01 01 1970 FIXME" "@PACKAGE_NAME@ @PACKAGE_VERSION@"
 
 .SH NAME
-skeleton \- a minesweeper clone based on the EFL
+skeleton \- a demo application
 
 .SH SYNOPSIS
 .B skeleton
@@ -37,7 +37,7 @@ Print list of options with short description.
 
 .SH BUGS
 
-Reports are welcome.
+Reports are welcome. Send them at @PACKAGE_BUGREPORT@.
 
 
 .SH HOMEPAGE
