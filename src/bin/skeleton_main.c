@@ -15,7 +15,6 @@
 
 #include "skeleton_private.h"
 
-// FIXME: Don't forget to put your name below instead of mine ;-) And remove the comment when done !
 #define COPYRIGHT "Copyright © 2013 Cedric BAIL <cedric.bail@samsung.com> and various contributors (see AUTHORS)."
 
 static void

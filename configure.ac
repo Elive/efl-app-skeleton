@@ -1,6 +1,4 @@
-### Skeleton autotools to write an EFL based application
-### Don't forget to put your email as a maintainer ;-)
-EFL_VERSION([1], [8], [99], [dev])
+EFL_VERSION([0], [0], [1], [dev])
 AC_INIT([skeleton], [efl_version], [enlightenment-devel@lists.sourceforge.net])
 
 AC_PREREQ([2.65])
