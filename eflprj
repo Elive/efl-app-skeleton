@@ -28,7 +28,7 @@ echo "" > description
 for file in $(git ls-files); do
    [ "$file" = ".gitignore" ] && continue
    echo "$file" | grep -qE '^m4' && continue
-   sed -i "s/skeleton/${PROJ_LL}/g;s/Skeleton/${PROJ_U}/g;s/SKELETON/${PROJ_UU}/g;s/Cedric Bail/${NAME}/g;s/cedric.bail@samsung.com/${EMAIL}/g;s/www.enlightenment.org/${WWW}/g" $file
+   sed -i "s/skeleton/${PROJ_LL}/g;s/Skeleton/${PROJ_U}/g;s/SKELETON/${PROJ_UU}/g;s/Cedric Bail/${NAME}/ig;s/cedric.bail@samsung.com/${EMAIL}/g;s/www.enlightenment.org/${WWW}/g" $file
 done
 
 for file in $(find -name '*skeleton*'); do
